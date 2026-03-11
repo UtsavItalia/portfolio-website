@@ -3,20 +3,20 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Utsav Italia — AI/ML Engineer & Data Analyst",
-    template: "%s | Utsav ",
+    default: "Utsav Italia — Data Analyst & Aspiring ML/AI Engineer",
+    template: "%s | Utsav Italia",
   },
   description:
-    "AI/ML Engineer with 5+ years building production machine learning systems and full-stack applications. Expert in PyTorch, LangChain, MERN stack, and MLOps.",
+    "Data Analyst with 3 years of experience transitioning into ML/AI Engineering. Building end-to-end data-driven applications with Python, Scikit-learn, and modern web technologies.",
   keywords: [
     "ML Engineer", "AI Engineer", "Data Analyst", "Machine Learning",
     "Full Stack Developer", "Python", "Next.js", "Data Science",
-    "NLP", "LangChain", "Scikit-learn", "TypeScript",
+    "NLP", "Scikit-learn", "TypeScript", "Tableau", "forecasting",
   ],
   authors: [{ name: "Utsav Italia", url: "https://utsavitalia.dev" }],
   openGraph: {
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://utsavitalia.dev",
     siteName: "Utsav Italia Portfolio",
-    title: "Utsav Italia — AI/ML Engineer & Data Analyst",
-    description: "Building intelligent systems that bridge research and production.",
+    title: "Utsav Italia — Data Analyst & Aspiring ML/AI Engineer",
+    description: "Data Analyst transitioning into ML/AI Engineering — building intelligent, data-driven systems.",
   },
   twitter: {
     card: "summary_large_image",
@@ -42,6 +42,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
