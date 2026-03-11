@@ -78,9 +78,9 @@ portfolio/
 Edit `lib/data.ts`:
 ```ts
 export const personalInfo = {
-  name: "Utsav Italia",
-  email: "ujitalia@gmail.com",
-  github: "https://github.com/utsavitalia",
+  name: "Your info",
+  email: "Your email",
+  github: "https://github.com/{your github}",
   // ...
 };
 ```
