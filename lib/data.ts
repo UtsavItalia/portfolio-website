@@ -339,8 +339,8 @@ export const projects: Project[] = [
       "AWS",
       "Node.js",
     ],
-    github: "https://github.com/utsavitalia/trip-planner",
-    demo: "",
+    github: "https://github.com/UtsavItalia/SIT_MSCS/tree/110ec6a56eadb772ffd29025fa55d7ec035fd5e7/CS554/CS554_project",
+    demo: "https://www.youtube.com/watch?v=53acw4Xv9wA",
     image: "/images/trip-planner.jpg",
     results: [
       "30% performance improvement through Redis caching",
@@ -369,8 +369,8 @@ export const projects: Project[] = [
       "Node.js",
       "REST APIs",
     ],
-    github: "https://github.com/utsavitalia/bug-tracker",
-    demo: "",
+    github: "https://github.com/UtsavItalia/SIT_MSCS/tree/110ec6a56eadb772ffd29025fa55d7ec035fd5e7/CS546/FinalProject",
+    demo: "https://www.youtube.com/watch?v=TGJOxmeyZ0M",
     image: "/images/bug-tracker.jpg",
     results: [
       "15% faster issue resolution with streamlined tracking",
